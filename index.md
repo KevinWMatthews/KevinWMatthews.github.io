@@ -6,6 +6,8 @@ Hi, I'm Kevin.
 
 Find me on [GitHub]({{site.data.user.html_url}}).
 
+Find me on [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}).
+
 Check out my [website]({{site.data.user.blog}}).
 
 Look through my repos with webpages, listed in alpabetical order:
