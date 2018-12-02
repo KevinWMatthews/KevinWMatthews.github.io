@@ -1,0 +1,4 @@
+# Ignore files used for serving a jekyll site locally
+.bundle
+_site/
+vendor/
