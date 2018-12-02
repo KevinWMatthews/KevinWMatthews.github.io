@@ -27,13 +27,14 @@ def get_link(repo)
     {
         :name => repo.name,
         :url => repo.homepage,
+        :description => repo.description,
     }
 end
 
 links = repos.select { |repo| has_webpage(repo) }.collect { |repo| get_link(repo) }
 
 links.each do |link|
-    puts "name: #{link[:name]}, url: #{link[:url]}"
+    puts "name: #{link[:name]}, description: #{link[:description]}, url: #{link[:url]}"
 end
 
 require 'json'

@@ -11,5 +11,5 @@ Check out my [website]({{site.data.user.blog}}).
 Look through my repos with webpages, listed in alpabetical order:
 
 {% for link in site.data.links %}
-  * [{{ link.name }}]({{ link.url }})
+  * [{{ link.name }}]({{ link.url }}): {{ link.description }}
 {% endfor %}
