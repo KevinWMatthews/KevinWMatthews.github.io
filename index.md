@@ -4,13 +4,9 @@
 
 Hi, I'm Kevin.
 
-See my work on [GitHub]({{site.data.user.html_url}}).
+Find me on [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}) or [GitHub]({{site.data.user.html_url}}).
 
-Find me on [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}).
-
-Check out my [website](https://www.kevinwmatthews.com).
-
-Read through my [blog](https://blog.kevinwmatthews.com).
+Check out my [website](https://www.kevinwmatthews.com) and [blog](https://blog.kevinwmatthews.com).
 
 Peruse my repo webpages:
 
